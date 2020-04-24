@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <!-- Adding Bootstrap 4.3.1 to our html file--> 
+    <link href="stylesheet.css" rel='stylesheet'> <!-- Adding custom style sheet to our html file-->
+    <title>Animals Images</title>                 <!-- Title of page-->
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">      <!-- Creating nav bar with the help of bootstrap-->
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Random Animal Images</a>
+          </div>
+      </nav>
+
+    <div class="container" id='main_div'>          <!-- div element in which we will be adding card elements dynamically through javascript -->
+        <div id="resultDiv" class="row top-buffer">
+        </div>
+    </div>
+    <script src="api_call.js", type="text/javascript"></script>     <!-- Adding javascript file to our html file -->
+        
+</body>
+</html>
